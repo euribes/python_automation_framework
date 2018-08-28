@@ -2,7 +2,7 @@ from behave import *
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from tests.acceptance.page_model.base_page import BasePage
+from page_model.base_page import BasePage
 
 use_step_matcher('re')
 

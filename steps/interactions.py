@@ -1,6 +1,6 @@
 from behave import *
 
-from tests.acceptance.page_model.login_page import LoginPage
+from page_model.login_page import LoginPage
 
 use_step_matcher('re')
 

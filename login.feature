@@ -5,7 +5,7 @@ Feature: Test the login page
     Then I should not see the cart and messages icons
 
   Scenario: Login with valid credentials
-    When I login as user "kangurooscar@gmail.com" and password "admin1234567$"
+    When I login as user "valid@gmail.com" and password "12345678"
     Then I should see the cart and messages icons
 
   Scenario: Login with invalid username
@@ -14,6 +14,6 @@ Feature: Test the login page
     And I should not see the cart and messages icons
 
   Scenario: Login with invalid password
-    When I login as user "kangurooscar@gmail.com" and password "invalid"
+    When I login as user "valid@gmail.com" and password "invalid"
     Then I should see login invalid credentials error
     And I should not see the cart and messages icons

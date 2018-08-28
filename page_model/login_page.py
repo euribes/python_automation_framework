@@ -1,5 +1,5 @@
-from tests.acceptance.locators.login_page_locators import LoginPageLocators
-from tests.acceptance.page_model.base_page import BasePage
+from locators.login_page_locators import LoginPageLocators
+from page_model.base_page import BasePage
 
 
 class LoginPage(BasePage):

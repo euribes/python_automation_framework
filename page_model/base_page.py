@@ -1,4 +1,4 @@
-from tests.acceptance.locators.base_page_locators import BasePageLocators
+from locators.base_page_locators import BasePageLocators
 
 
 class BasePage:
@@ -7,7 +7,7 @@ class BasePage:
 
     @property
     def url(self):
-        return 'http://127.0.0.1:8000'
+        return 'http://www.google.com'
 
     @property
     def title(self):
